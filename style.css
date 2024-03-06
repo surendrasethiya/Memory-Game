@@ -1,3 +1,5 @@
+/* style.css */
+
 /* Base styles */
 * {
     margin: 0;
@@ -49,6 +51,16 @@ h2 {
 .reset:focus,
 .reset:hover {
     background-color: #267c65;
+    color: #fff;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    font-size: 1.2em;
     color: #fff;
 }
 
